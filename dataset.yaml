@@ -1,4 +1,4 @@
-train: /content/train/train  # Path to the directory containing training images
-val: /content/train/train/valid  # Path to the directory containing validation images
+train: /content/train  # Path to the directory containing training images
+val: /content/valid  # Path to the directory containing validation images
 nc: 6  # Number of classes (change to the number of classes in your dataset)
 names:  ['Brown spot', 'Leaf Blight', 'Leaf Scald', 'Leaf blast', 'Narrow brown spot', 'healthy']  # List of class names (replace with your own)
